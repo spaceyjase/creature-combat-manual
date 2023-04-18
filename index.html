@@ -93,37 +93,118 @@
                     <h3>Game Configuration</h3>
                     <p></p>
                     <h4>Wizards</h4>
-                    <p></p>
+                    <p>To begin the game, first select how many wizards are taking part in this tournament. To do this,
+                        enter a number between 2 and 8.</p>
+                    <p>{number of wizards}</p>
+                    <p class="italic">(clicking the up and down arrows also changes the number of starting wizards)</p>
+                    <p>Once you're happy with the number of participants, click {play game button}</p>
                     <h4>Naming and colours</h4>
-                    <p></p>
+                    <p>It's important to know who is playing and who your opponents are! Each wizard can enter their
+                        name here by selecting on the left and modifying the details on the right:</p>
+                    <p>{wizard configuration}</p>
+                    <p>Select a colour from the list available; it's important to also look the part!</p>
+                    <p>Here, humans can also choose to allow the computer to play by toggling the {AI} checkbox; be
+                        careful, expect no mercy!</p>
+                    <p class="italic">(you may also configure the game to play using only AI players too!)</p>
+                    <p>When all wizards are named and have an appropriate robe colour, go right ahead and click {play}
+                        to continue.</p>
                     <h2>Playing the Game</h2>
                     <p></p>
                     <h3>The Wizard's Turn</h3>
-                    <p></p>
+                    <p>Play begins immediately with the first wizard (human or AI!). Wizards have been placed in an
+                        appropriate location depending on the number of opponents and have also been given a random
+                        selection of spells that can be used to summon creatures that fight for you!</p>
+                    <p>Wizards controlled by AI can skip this next bit…</p>
+                    <p>{wizard with focus}</p>
+                    <p>Let's play!</p>
                     <h3>Interacting with the game</h3>
-                    <p></p>
+                    <p>At the beginning, only a player's wizard is available as they haven't summoned any creatures yet.
+                        A wizard (and later summoned creatures) can take actions, like moving around, attacking and
+                        more…</p>
                     <h4>Navigating the arena</h4>
-                    <p></p>
+                    <p>Before going further, let's take a moment to take a look around the arena.</p>
+                    <ul>
+                        <li>To rotate the camera, press the middle mouse button and move the mouse left and right (or
+                            swiping on a trackpad). The keyboard 'Q' and 'E' keys (on a qwerty keyboard) rotate too.</li>
+                        <li>Right-click and hold while dragging the mouse around pans the view (shift+swipe on a
+                            trackpad). Keyboard controls are WASD.</li>
+                        <li>Pressing 'F' on the keyboard will move the camera back to the wizard under your control.
+                        </li>
+                    </ul>
+                    <p>Notice the position of other wizards in the arena; these are your main opponents! Let's move on..
+                    </p>
+                    <h4>Moving</h4>
+                    <p>To move around, click the wizard; this will show a green icon that means they're selected. Notice
+                        the game also shows the actions they may perform:</p>
+                    <p>{wizard actions}</p>
+                    <p>To navigate around the arena, select the {move} action. The game shows how far the selected
+                        wizard can move (wizards can only move a single cell!).</p>
+                    <p>{movement range}</p>
+                    <p>To move to another location, click the desired cell; the wizard will move!</p>
+                    <p>{moved wizard}</p>
                     <h4>Casting a Spell</h4>
-                    <p></p>
+                    <p>This is how a wizard can defend themselves and go on the offence! Click the {cast spell} action
+                        button; the game highlights available cells as a possible spell target.</p>
+                    <p class="italic">Think about the surrounding area - later in the game, a wizard may wish to
+                        obstruct the path of an enemy by casting a spell in their way, or perhaps a particular direction
+                        is closer to another wizard making it easier to attack.</p>
+                    <p>Click on a target cell. A spell selection window appears!</p>
+                    <p>{spell selection}</p>
+                    <ul>
+                        <li>Spells: these are the spells the wizard knows, assigned when the game began. A spell may
+                            also show a quantity, e.g. "Spider (2)" that means this wizard has two Spider spells!</li>
+                        <li>Description: shows details about the selected spell, e.g. its movement range or attack
+                            strength. Most important is Cast Chance that indicates how likely a spell is to succeed;
+                            typically tougher (meaning undead or stronger) creatures are harder to cast.</li>
+                        <li>Illusion: this is also important; creating an illusion ignores cast chance. That is, the
+                            spell is guaranteed to work... but more on that later!</li>
+                    </ul>
+                    <p>When a wizard is happy with their choice, click {cast spell}. A wizard can also change their mind
+                        and may perform another action if they're able to do so, perhaps deciding on a spell later (or
+                        not at all!).</p>
+                    <p>Depending on the success of the spell (as your first spell, choose a high cast chance!), the
+                        wizard now has a creature!</p>
+                    <p>{creature}</p>
+                    <p>When first summoned, a creature can't really do anything yet...</p>
                     <h5>Illusions</h5>
-                    <p></p>
+                    <p>As mentioned, an illusion ignores the casting chance meaning that a spell will 100% work. An
+                        illusion is the same as any other creature, with one exception; they're vulnerable to the
+                        disbelieve spell.</p>
                     <h4>Disbelieve</h4>
-                    <p></p>
+                    <p>Wizards have a special ability, and that's to disbelieve a creature. Some creatures have a low
+                        cast chance that may seem impossible to cast successfully so a player may have summoned an
+                        illusion! When cast, if the creature was an illusion, they're instantly removed from the game!
+                    </p>
+                    <p class="italic">Note that a wizard can either cast a spell or disbelieve but not both!</p>
                     <h4>End Turn</h4>
-                    <p></p>
+                    <p>That's all you can do for now so to allow play to continue with the next wizard, click {End
+                        Turn}. You'll be asked if that's okay so just click {ok} for now and play on!</p>
+                    <p class="italic">You can always cancel here too just in case you've forgotten to do something!</p>
                     <h3>Your Next Turn</h3>
-                    <p></p>
+                    <p>Play continues with other wizards, who may cast spells and move around the board. They may even
+                        try to disbelieve the creature summoned on your first turn (if you cast a spell).</p>
+                    <p>This turn should play out as your first turn, only you may have an additional creature to use
+                        too! Your creatures are highlighted so take a moment to take a look around the board and when
+                        you're ready, select a creature as you would the wizard by clicking on them.</p>
+                    <p>The creature's actions are shown the same way a wizard's actions are. The creature (or even the
+                        wizard!) may be able to attack:</p>
                     <h4>Attack</h4>
-                    <p></p>
+                    <p>Attack works like other actions, by first selecting the action itself if available. Reasons a
+                        creature can't attack could be because it is their first turn, or they're too far away from an
+                        enemy creature or wizard. They must be located next to an enemy to attack them.</p>
+                    <p>{attack range and units}</p>
+                    <p>Assuming the creature can attack, click highlighted space occupied by the enemy. The creature
+                        will attack the enemy!</p>
+                    <p>{attack}</p>
+                    <p class="italic">Note that attacking a wizard should be a priority. Defeating a wizard also removes their creatures from the game!</p>
                     <h3>Winning</h3>
-                    <p></p>
+                    <p>The game is won by destroying every opponent wizard, it's that easy (or is it?).</p>
                     <h2>Hints and Tips</h2>
                     <ul>
                         <li>An illusion has a 100% cast chance.</li>
-                        <li>Attacking ends a unit turn so consider moving first!<ul>
+                        <li>Attacking ends a unit's turn so consider moving first!<ul>
                                 <li>Except for wizards, wizards are cool.</li>
-                                <li>A ranged attack doesn’t either so certain creatures may move, attack and shoot!
+                                <li>A ranged attack doesn't prevent moving either so certain creatures are capable of moving, attacking and shooting!
                                 </li>
                             </ul>
                         </li>
