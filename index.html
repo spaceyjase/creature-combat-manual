@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
@@ -91,23 +90,25 @@
                         the dungeon arena. Thank you for playing my game!</p>
                     <h2>How to play</h2>
                     <h3>Game Configuration</h3>
-                    <p></p>
                     <h4>Wizards</h4>
                     <p>To begin the game, first select how many wizards are taking part in this tournament. To do this,
                         enter a number between 2 and 8.</p>
-                    <p>{number of wizards}</p>
+                    <p><img src="img/number_of_wizards.png" alt="Number of wizards"></p>
                     <p class="italic">(clicking the up and down arrows also changes the number of starting wizards)</p>
-                    <p>Once you're happy with the number of participants, click {play game button}</p>
+                    <p>Once you're happy with the number of participants, click <img src="img/play_button.png"
+                            alt="Play Game" style="vertical-align:middle"></p>
                     <h4>Naming and colours</h4>
                     <p>It's important to know who is playing and who your opponents are! Each wizard can enter their
                         name here by selecting on the left and modifying the details on the right:</p>
-                    <p>{wizard configuration}</p>
+                    <p><img src="img/game_setup.png" alt="Wizard configuration"></p>
                     <p>Select a colour from the list available; it's important to also look the part!</p>
-                    <p>Here, humans can also choose to allow the computer to play by toggling the {AI} checkbox; be
+                    <p>Here, humans can also choose to allow the computer to play by checking the AI option <img
+                            src="img/ai.png" alt="AI selected" style="vertical-align: middle">; be
                         careful, expect no mercy!</p>
-                    <p class="italic">(you may also configure the game to play using only AI players too!)</p>
-                    <p>When all wizards are named and have an appropriate robe colour, go right ahead and click {play}
-                        to continue.</p>
+                    <p class="italic">(you may also configure the game to play using only AI wizards too!)</p>
+                    <p>When all wizards are named and have an appropriate robe colour, go right ahead and click <img
+                            src="img/play_game_button.png" alt="" Play Game" style="vertical-align:middle"> to continue.
+                    </p>
                     <h2>Playing the Game</h2>
                     <p></p>
                     <h3>The Wizard's Turn</h3>
@@ -115,7 +116,7 @@
                         appropriate location depending on the number of opponents and have also been given a random
                         selection of spells that can be used to summon creatures that fight for you!</p>
                     <p>Wizards controlled by AI can skip this next bit…</p>
-                    <p>{wizard with focus}</p>
+                    <p><img src="img/wizard_with_focus.png" alt="Wizard with focus"></p>
                     <p>Let's play!</p>
                     <h3>Interacting with the game</h3>
                     <p>At the beginning, only a player's wizard is available as they haven't summoned any creatures yet.
@@ -125,7 +126,8 @@
                     <p>Before going further, let's take a moment to take a look around the arena.</p>
                     <ul>
                         <li>To rotate the camera, press the middle mouse button and move the mouse left and right (or
-                            swiping on a trackpad). The keyboard 'Q' and 'E' keys (on a qwerty keyboard) rotate too.</li>
+                            swiping on a trackpad). The keyboard 'Q' and 'E' keys (on a qwerty keyboard) rotate too.
+                        </li>
                         <li>Right-click and hold while dragging the mouse around pans the view (shift+swipe on a
                             trackpad). Keyboard controls are WASD.</li>
                         <li>Pressing 'F' on the keyboard will move the camera back to the wizard under your control.
@@ -136,35 +138,42 @@
                     <h4>Moving</h4>
                     <p>To move around, click the wizard; this will show a green icon that means they're selected. Notice
                         the game also shows the actions they may perform:</p>
-                    <p>{wizard actions}</p>
-                    <p>To navigate around the arena, select the {move} action. The game shows how far the selected
+                    <p><img src="img/wizard_actions.png" alt="Wizard actions"></p>
+                    <p>To navigate around the arena, select the <img src="img/move_button.png" alt="Move button"
+                            style="vertical-align:middle"> action. The game shows how far the selected
                         wizard can move (wizards can only move a single cell!).</p>
-                    <p>{movement range}</p>
+                    <p><img src="img/movement_range.png" alt="Movement range"></p>
                     <p>To move to another location, click the desired cell; the wizard will move!</p>
-                    <p>{moved wizard}</p>
+                    <p><video width="640" controls>
+                            <source src="video/wizard_move.mp4" type="video/mp4"> Your browser does not support the video
+                            tag.
+                        </video></p>
                     <h4>Casting a Spell</h4>
-                    <p>This is how a wizard can defend themselves and go on the offence! Click the {cast spell} action
+                    <p>This is how a wizard can defend themselves and go on the offence! Click the <img
+                            src="img/cast_spell.png" alt="Cast spell button" style="vertical-align:middle"> action
                         button; the game highlights available cells as a possible spell target.</p>
                     <p class="italic">Think about the surrounding area - later in the game, a wizard may wish to
                         obstruct the path of an enemy by casting a spell in their way, or perhaps a particular direction
                         is closer to another wizard making it easier to attack.</p>
                     <p>Click on a target cell. A spell selection window appears!</p>
-                    <p>{spell selection}</p>
+                    <p><img src="img/spell_selection.png" alt="Spell selection"></p>
                     <ul>
                         <li>Spells: these are the spells the wizard knows, assigned when the game began. A spell may
-                            also show a quantity, e.g. "Spider (2)" that means this wizard has two Spider spells!</li>
+                            also show a quantity e.g. "Ent (2)" means this wizard has two Ent (a large tree-like
+                            creature) spells!</li>
                         <li>Description: shows details about the selected spell, e.g. its movement range or attack
                             strength. Most important is Cast Chance that indicates how likely a spell is to succeed;
                             typically tougher (meaning undead or stronger) creatures are harder to cast.</li>
                         <li>Illusion: this is also important; creating an illusion ignores cast chance. That is, the
                             spell is guaranteed to work... but more on that later!</li>
                     </ul>
-                    <p>When a wizard is happy with their choice, click {cast spell}. A wizard can also change their mind
+                    <p>When a wizard is happy with their choice, click <img src="img/cast_spell_button.png"
+                            alt="Cast spell button" style="vertical-align:middle">. A wizard can also change their mind
                         and may perform another action if they're able to do so, perhaps deciding on a spell later (or
                         not at all!).</p>
                     <p>Depending on the success of the spell (as your first spell, choose a high cast chance!), the
                         wizard now has a creature!</p>
-                    <p>{creature}</p>
+                    <p><img src="img/creature.png" alt="A summoned creature"></p>
                     <p>When first summoned, a creature can't really do anything yet...</p>
                     <h5>Illusions</h5>
                     <p>As mentioned, an illusion ignores the casting chance meaning that a spell will 100% work. An
@@ -177,8 +186,10 @@
                     </p>
                     <p class="italic">Note that a wizard can either cast a spell or disbelieve but not both!</p>
                     <h4>End Turn</h4>
-                    <p>That's all you can do for now so to allow play to continue with the next wizard, click {End
-                        Turn}. You'll be asked if that's okay so just click {ok} for now and play on!</p>
+                    <p>That's all you can do for now so to allow play to continue with the next wizard, click <img
+                            src="img/end_turn_button.png" alt="End turn button" style="vertical-align:middle">. You'll
+                        be asked if that's okay so just click <img src="img/ok_button.png" alt="OK button"
+                            style="vertical-align:middle"> for now and play on!</p>
                     <p class="italic">You can always cancel here too just in case you've forgotten to do something!</p>
                     <h3>Your Next Turn</h3>
                     <p>Play continues with other wizards, who may cast spells and move around the board. They may even
@@ -192,11 +203,15 @@
                     <p>Attack works like other actions, by first selecting the action itself if available. Reasons a
                         creature can't attack could be because it is their first turn, or they're too far away from an
                         enemy creature or wizard. They must be located next to an enemy to attack them.</p>
-                    <p>{attack range and units}</p>
-                    <p>Assuming the creature can attack, click highlighted space occupied by the enemy. The creature
+                    <p><img src="img/attack_range.png" alt="Attack range"></p>
+                    <p>Assuming the creature can attack, click the highlighted space occupied by the enemy. The creature
                         will attack the enemy!</p>
-                    <p>{attack}</p>
-                    <p class="italic">Note that attacking a wizard should be a priority. Defeating a wizard also removes their creatures from the game!</p>
+                    <p><video width="640" controls>
+                            <source src="video/attack.mp4" type="video/mp4"> Your browser does not support the video
+                            tag.
+                        </video></p>
+                    <p class="italic">Note that attacking a wizard should be a priority. Defeating a wizard also removes
+                        their creatures from the game!</p>
                     <h3>Winning</h3>
                     <p>The game is won by destroying every opponent wizard, it's that easy (or is it?).</p>
                     <h2>Hints and Tips</h2>
@@ -204,7 +219,8 @@
                         <li>An illusion has a 100% cast chance.</li>
                         <li>Attacking ends a unit's turn so consider moving first!<ul>
                                 <li>Except for wizards, wizards are cool.</li>
-                                <li>A ranged attack doesn't prevent moving either so certain creatures are capable of moving, attacking and shooting!
+                                <li>A ranged attack doesn't prevent moving either so certain creatures are capable of
+                                    moving, attacking and shooting!
                                 </li>
                             </ul>
                         </li>
@@ -217,5 +233,4 @@
         </div>
     </div>
 </body>
-
 </html>
